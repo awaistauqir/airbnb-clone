@@ -14,7 +14,7 @@ const Banner = () => {
 			<div className="absolute grid place-content-center h-full w-full">
 				<p className="text-sm sm:text-lg text-white">Not sure where to go?</p>
 				<button className="text-purple-500 bg-white px-10 py-4 shoadow-md rounded-full font-bold my-3 hover:shadow-xl active:scale-90 transition  duration-150">
-					I'm flexible
+					I am flexible
 				</button>
 			</div>
 		</div>

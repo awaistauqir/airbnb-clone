@@ -18,9 +18,7 @@ const SearchPage = ({ searchedPlaces, error }) => {
 			<div className="max-w-7xl mx-auto p-5 md:px-10">
 				{location && (
 					<p className="text-xs">
-						{`300+stays -  ${range && ''} -  for ${
-							numOfGuests && ''
-						} number of guests`}
+						{`300+stays -  ${range} -  for ${numOfGuests} number of guests`}
 					</p>
 				)}
 				<h1 className="text-3xl font-semibold mt-2 mb-6">
